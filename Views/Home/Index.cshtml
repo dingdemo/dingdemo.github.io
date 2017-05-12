@@ -1,0 +1,150 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    string timeStamp = ViewData.GetString("timeStamp");
+    string nonceStr = ViewData.GetString("nonceStr");
+    string signature = ViewData.GetString("signature");
+}
+
+
+<div class="jumbotron">
+    <h1>HELLO DING</h1>
+    <p class="lead">DING DING is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a  id="timec" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started<br /> @(timeStamp) <br /> @(nonceStr) <br /> @(signature)</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+
+</div>
+
+@*<script>
+    $.ajax({
+    url: "@Url.Action("gettimeStamp", "Home")",
+        type: "POST",
+        //data:,
+        async: true,
+            success: function (data) {
+            alert("成功");
+        },
+        error: function (request) {
+            alert("失败");
+        }
+    });
+</script>*@
+
+
+<div class="panel panel-primary">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">部门接口</h3>
+    </div>
+    <div class="panel-body">
+        <div class="method-margin col-md-12">
+            <div style="margin-bottom:5px;">
+                <button type="button" class="btn btn-default" data-loading-text="正在请求..." id="accessToken">获取accessToken</button>
+                <button type="button" class="btn btn-default" data-loading-text="正在请求..." id="getJsapiTicket">获取jsapi_ticket</button>
+                @*<button type="button" class="btn btn-default" data-loading-text="正在请求..." id="departmentList">获取部门列表</button>
+                <button type="button" class="btn btn-default" data-loading-text="正在请求..." id="singleDepartment">获取单个部门</button>
+                <button type="button" class="btn btn-default" data-loading-text="正在请求..." id="addDepartment">新建一个部门</button>
+                <button type="button" class="btn btn-default" data-loading-text="正在请求..." id="delDepartment">删除一个部门</button>*@
+            </div>
+            <div class="method-output-padding">
+                <div class="logs-margin alert alert-danger alert-dismissible" role="alert" name="showErrorAlert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <span name="errorText"></span>
+                </div>
+                <div class="logs-margin alert alert-success alert-dismissible" role="alert" name="showInfoAlert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <span name="successText"></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+        $(function () {
+            $("div[name='showInfoAlert']").hide();
+            $("div[name='showErrorAlert']").hide();
+            Date.prototype.Format = function (fmt) { //author: meizz
+                var o = {
+                    "M+": this.getMonth() + 1, //月份
+                    "d+": this.getDate(), //日
+                    "h+": this.getHours(), //小时
+                    "m+": this.getMinutes(), //分
+                    "s+": this.getSeconds(), //秒
+                    "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+                    "S": this.getMilliseconds() //毫秒
+                };
+                if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+                for (var k in o)
+                    if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+                return fmt;
+            }
+
+            $(".btn-default").each(function (index, el) {
+                var actionName = el.id;
+                var parentDiv = $(el).parents(".method-margin").first();
+                $(el).click(function (e) {
+
+                    $.ajax({
+                        type: "post",
+                        //contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                        dataType: "text",
+                        //url: "api/dt/" + actionName,
+
+                        url: "/Home/" + actionName,
+                        beforeSend: function () {
+                            $(el).button('loading').delay();
+                        },
+                        success: function (result) {
+                            var alertInfo = parentDiv.find("div[name='showInfoAlert']").first();
+                            var textInfo = parentDiv.find("span[name='successText']").first();
+                            ShowInfo(result, alertInfo, textInfo);
+                            $(el).button('reset');
+
+                        },
+                        error: function (error) {
+                            var alertInfo = parentDiv.find("div[name='showErrorAlert']").first();
+                            var textInfo = parentDiv.find("span[name='errorText']").first();
+                            ShowInfo(error, alertInfo, textInfo);
+                            $(el).button('reset');
+                        }
+                    })
+                })
+            });
+        });
+
+
+
+
+        function ShowInfo(result,alertEl,textEl) {
+            var result = new Date().Format("hh:mm:ss") + " 返回结果:" + result;
+            alertEl.show();
+            textEl.text(result);
+        }
+
+</script>

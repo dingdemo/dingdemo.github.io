@@ -1,0 +1,84 @@
+2017/5/11 10:54:18: signature not sha1:noncestr=JJWeR5Ze&timestamp=1494500003&url=http://localhost:37997/
+2017/5/11 10:54:33: signature not sha1:noncestr=JJWeR5Ze&timestamp=1494500003&url=http://localhost:37997/
+2017/5/11 10:55:21: signature sha1:187263f20de3039fff175e1faae2eef1fffcead8
+2017/5/11 10:56:55: signature not sha1:noncestr=BjoiMkUo&timestamp=1494500216&url=http://192.168.1.167:8007/
+2017/5/11 10:56:55: signature sha1:3707d6b5794e2a1de6cc45803d3ff772fa5e71cf
+2017/5/11 10:59:26: signature not sha1:noncestr=yFKeSnkE&timestamp=1494500367&url=http://192.168.1.167:8007/
+2017/5/11 10:59:26: signature sha1:cb422e183289d2bad1d7c8a897e3f38579cc7303
+2017/5/11 11:01:09: signature not sha1:noncestr=yrPhZ6x5&timestamp=1494500470&url=http://192.168.1.167:8007/
+2017/5/11 11:01:09: signature sha1:a428249235b6fd3d502431857b354a32f5a75035
+2017/5/11 11:02:27: signature not sha1:noncestr=99R7G4El&timestamp=1494500548&url=http://192.168.1.167:8007/
+2017/5/11 11:02:27: signature sha1:f1977b189f52a5d207f676961dda91944cafe5d2
+2017/5/11 11:22:38: signature not sha1:jsapi_ticket=tF4ZLiPD&noncestr=tF4ZLiPD&timestamp=1494501755&url=http://localhost:37997/
+2017/5/11 11:22:42: signature sha1:b829ac32969cc6f6b1f9fca6de8bd2692b250bca
+2017/5/11 11:24:49: signature not sha1:jsapi_ticket=L3D43IUt&noncestr=L3D43IUt&timestamp=1494501889&url=http://localhost:37997/
+2017/5/11 11:24:53: signature sha1:56f62fb044adf738c08083e251dba3dd36fbd561
+2017/5/11 11:26:58: signature not sha1:jsapi_ticket=7hVJNn22&noncestr=7hVJNn22&timestamp=1494502019&url=http://localhost:37997/
+2017/5/11 11:27:06: signature sha1:f6ed3a512a49a2f84ad039ab915cc0892db2a06e
+2017/5/11 11:31:55: signature not sha1:jsapi_ticket=iGjyXQPH&noncestr=iGjyXQPH&timestamp=1494502316&url=http://localhost:37997/
+2017/5/11 11:31:55: signature sha1:88159bb3ecb437245a6ef19511ea5be16a274044
+2017/5/11 11:34:05: signature not sha1:jsapi_ticket=QvfWpt6B&noncestr=QvfWpt6B&timestamp=1494502446&url=http://localhost:37997/
+2017/5/11 11:34:05: signature sha1:d0afe1272f437b894bf47fc25322d3763febc852
+2017/5/11 11:36:15: signature not sha1:jsapi_ticket=iRkfzcQ3&noncestr=iRkfzcQ3&timestamp=1494502536&url=http://localhost:37997/
+2017/5/11 11:36:27: signature sha1:75bcbcc28a1e7cb3caff00fe0bc250f6b4332f2a
+2017/5/11 11:37:00: signature not sha1:jsapi_ticket=hfX8ZdoT&noncestr=hfX8ZdoT&timestamp=1494502621&url=http://192.168.1.167:8007/
+2017/5/11 11:37:00: signature sha1:b22ac7fcaf2beaabb6f0b9c2da939e5641f998c3
+2017/5/11 13:26:22: signature not sha1:jsapi_ticket=System.Threading.Tasks.Task`1[System.String]&noncestr=kex3OwD2&timestamp=1494509149&url=http://localhost:37997/
+2017/5/11 13:26:27: signature sha1:2157e85632f8b6825bf250bf778dc449d03d35fc
+2017/5/11 13:34:14: signature not sha1:jsapi_ticket=System.Threading.Tasks.Task`1[System.String]&noncestr=NdBwwhmM&timestamp=1494509598&url=http://localhost:37997/
+2017/5/11 13:34:15: signature sha1:7d7507fea79da7a873eb2ca9647eff83e8080cac
+2017/5/11 14:09:05: signature not sha1:jsapi_ticket=System.Threading.Tasks.Task`1[System.String]&noncestr=p73sfgAJ&timestamp=1494511737&url=http://localhost:37997/
+2017/5/11 14:09:07: signature sha1:6786a02838559389f330fe31ad46ce1337560c83
+2017/5/11 14:14:45: signature not sha1:jsapi_ticket=System.Threading.Tasks.Task`1[System.String]&noncestr=TJdRZLr5&timestamp=1494512004&url=http://localhost:37997/
+2017/5/11 14:14:55: signature sha1:3ac15c14fa6c2c14230d98921261ede54848a524
+2017/5/11 14:28:29: signature not sha1:jsapi_ticket=System.Threading.Tasks.Task`1[System.String]&noncestr=MZshus7K&timestamp=1494512909&url=http://192.168.1.167:8007/
+2017/5/11 14:28:29: signature sha1:75662cd47e84279030f3608fbf86448b14820ff6
+2017/5/11 14:36:18: nonceStr：68MexoTE
+2017/5/11 14:36:20: timestamp:1494513309
+2017/5/11 14:38:04: signature not sha1:jsapi_ticket=4pu2LoVqaPTsnvFYPhgfGbo423yp44o4YBMtY9vh84NS2PofwuGuxcjUT6D8fgSjg1HdlhEDB8ptyZnp9hbvum&noncestr=7xSjZL66&timestamp=1494513470&url=http://localhost:37997/
+2017/5/11 14:38:09: signature sha1:2b959b132d18e441f5866ca5ec53b1f629d3bf7c
+2017/5/11 14:39:30: signature not sha1:jsapi_ticket=1X8Hp2FY0Hs8yvv0porrIfeiiw5hylT1W6P8NqG5lQVpGcu3VP4kZlG5XkefBRdBrMZYZT2EpnLbUDHpFoH97g&noncestr=Nkk2jTYn&timestamp=1494513541&url=http://localhost:37997/
+2017/5/11 14:39:31: signature sha1:071fa2e9a345fdba7a0b2cd673223ea0b34a22f1
+2017/5/11 14:40:00: signature not sha1:jsapi_ticket=Xlq6rwTMoYfhW9JOgN5iKR26sA4nD5c6XXPLSZYMAGxwuMm7orQRjbF2raXonh9gWyv0155Pyb0wzi4Q9Bt2Qx&noncestr=djUvm4dh&timestamp=1494513601&url=http://192.168.1.167:8007/
+2017/5/11 14:40:00: signature sha1:6d4a74275b4bb5867174a95d97228ede39dc06cb
+2017/5/11 14:42:45: nonceStr：k5civG9z
+2017/5/11 14:42:53: timestamp:1494513762
+2017/5/11 14:42:56: url:http://localhost:37997/
+2017/5/11 14:42:59: accessToken:8ff1471a851735a9b61f7c69a1a6505e
+2017/5/11 14:43:01: jsApiTicket:MmnC12Dm2qw3JrXRu1Pih9X6f0ckTPDStzGo0MICWcXWneudNEnHyuXQyJVeh4pfcepkxcYvuS8U8r0V08PVNJ
+2017/5/11 14:43:05: signature not sha1:jsapi_ticket=MmnC12Dm2qw3JrXRu1Pih9X6f0ckTPDStzGo0MICWcXWneudNEnHyuXQyJVeh4pfcepkxcYvuS8U8r0V08PVNJ&noncestr=k5civG9z&timestamp=1494513762&url=http://localhost:37997/
+2017/5/11 14:43:08: signature sha1:6e8003fe485a1b368585b3b10f1678d0b390d1f6
+2017/5/11 14:45:02: nonceStr：jRWaOl2x
+2017/5/11 14:45:02: timestamp:1494513902
+2017/5/11 14:45:02: url:http://localhost:37997/
+2017/5/11 14:45:02: accessToken:8ff1471a851735a9b61f7c69a1a6505e
+2017/5/11 14:45:02: jsApiTicket:exdQPxMJnocgwR88HGXUyuGYlfEWZtkaLGv551JmjqTDkCqPPsXhMSSUAwbVd4Rg5w07f5jNbD1OvWxpKgfgAK555555555
+2017/5/11 14:45:02: signature not sha1:jsapi_ticket=exdQPxMJnocgwR88HGXUyuGYlfEWZtkaLGv551JmjqTDkCqPPsXhMSSUAwbVd4Rg5w07f5jNbD1OvWxpKgfgAK555555555&noncestr=jRWaOl2x&timestamp=1494513902&url=http://localhost:37997/
+2017/5/11 14:45:02: signature sha1:b17e7700e39d633dc914564717c2dfcc28607a30
+2017/5/11 14:45:43: nonceStr：zj36VC9G
+2017/5/11 14:45:43: timestamp:1494513943
+2017/5/11 14:45:43: url:http://192.168.1.167:8007/
+2017/5/11 14:45:43: accessToken:8ff1471a851735a9b61f7c69a1a6505e
+2017/5/11 14:45:43: jsApiTicket:vTtGWcwYDpCMJRnuVRuPwhi742jzzeNRZ0WUooCYSjW1ljz5rKTD5QuI5lZANs5iq873padhNBhvznO220BApS555555555
+2017/5/11 14:45:43: signature not sha1:jsapi_ticket=vTtGWcwYDpCMJRnuVRuPwhi742jzzeNRZ0WUooCYSjW1ljz5rKTD5QuI5lZANs5iq873padhNBhvznO220BApS555555555&noncestr=zj36VC9G&timestamp=1494513943&url=http://192.168.1.167:8007/
+2017/5/11 14:45:43: signature sha1:11b8926b2212141f4fd07e6df2e3cee119e6dacd
+2017/5/11 15:05:43: signature not sha1:jsapi_ticket=CnYs2Xz1h2N8Aq1KkPUwogUHmNkb6mkDP3i96Qi8dGGIVcQYFLREDu5McfjvwMVu1u9Ola8Z1HN9kmYv6nWGOF&noncestr=5XePrHrq&timestamp=1494515144&url=http://localhost:37997/
+2017/5/11 15:05:43: signature sha1:30c97e2692264909baae36b3192a77aeb7de4fd3
+2017/5/11 15:06:09: signature not sha1:jsapi_ticket=Y7dM9hdCZVzZmzP12Jfr6TsmT2dfwY7HpFIl3dzxB7iK7T7AeqmaMfZb47yDPeDrvJY4ugLE4xIApYARutpAbe&noncestr=BltmukSd&timestamp=1494515170&url=http://localhost:37997/
+2017/5/11 15:06:09: signature sha1:17ddbd37e774620f8b9799abba831833ff1ca229
+2017/5/11 15:06:27: signature not sha1:jsapi_ticket=xgCh28Vni5LMjebzVl38ryNW6UwvHvGLmxrf9QR2il9adKLZUKVg9ZLP8GyrizUobq7qXrsv7MHBr0xdbDXFxT&noncestr=rgDsHnhx&timestamp=1494515187&url=http://192.168.1.167:8007/
+2017/5/11 15:06:27: signature sha1:3fe77c7a45d08a6bda3034bed4ebc44940b49e33
+2017/5/11 15:06:33: signature not sha1:jsapi_ticket=ehC8zHTaG9K4CU0qmkTh7yxeoOkgrQMctqOrHZaAZSvllD3JtBsrvX27d3O3CLjLSBDmbY9OZGsdjyrao0L60j&noncestr=ksVxONbl&timestamp=1494515194&url=http://192.168.1.167:8007/
+2017/5/11 15:06:33: signature sha1:024b884ffb9b144917c9adf17e11a15c0007c79b
+2017/5/11 15:06:39: signature not sha1:jsapi_ticket=uuZdNSCI2WkVbl94Ujp3mbe0Ou4q9UsPWHU95BU1qWkRVWmN7ZKVbiPoht11eG5a7RzQ15KoRSbITS1IcoS4Py&noncestr=8Ih4D1NE&timestamp=1494515200&url=http://192.168.1.167:8007/
+2017/5/11 15:06:39: signature sha1:7bd3970ea0091f1f38dc17a2e176aee46bd02e04
+2017/5/11 15:06:49: signature not sha1:jsapi_ticket=9EkrAuT3ZbTMATKncszcq8KT53MrqaAT1R5T7jXauWD9VcNCnHiiYkAqrJplOPfFsSpkVqDqmE17Ep2fW08ewE&noncestr=CNlnAHwW&timestamp=1494515210&url=http://192.168.1.167:8007/
+2017/5/11 15:06:49: signature sha1:d80c15c66eefe3fcc6962c3e70bd18ed2552593a
+2017/5/11 15:16:56: signature not sha1:jsapi_ticket=wu2vn7UVfY1bjx96J5I3zM3go1gOg0Js3qNPICVoJeP0soEzuR0rhSI5Wjy8a5pZtrwGSCVBzVBkhk3wwEOYWC&noncestr=WWjvtbeR&timestamp=1494515816&url=http://localhost:37997/
+2017/5/11 15:16:56: signature sha1:373f14a336e7c46959af30d81915f84cf3b13c24
+2017/5/11 15:19:07: signature not sha1:jsapi_ticket=HfTfZsTJIAes8GtQAc4e27s62JrBkjaHHOzrgHrZjh0Dm3bGcUKxxDZ6SUCoWdUd0ghIlpjD6AiMJmzptDe93l&noncestr=RSxBtYKt&timestamp=1494515947&url=http://localhost:37997/
+2017/5/11 15:19:07: signature sha1:760a1cb49d0503e28f0677b3e6085817177c2a62
+2017/5/11 15:20:19: signature not sha1:jsapi_ticket=ExlRkAFImzCL8Mw3tw7PHR19UZkZUmmz458sW0539mDNiZMep61dpXuQ7NVUrsnT5ktJuwOho6YiRhzkOQE5gc&noncestr=X9X4EqiH&timestamp=1494516020&url=http://192.168.1.167:8007/
+2017/5/11 15:20:19: signature sha1:300a020874f00bbbf84e091e8d8ff516af5bb76e
+2017/5/11 15:20:38: signature not sha1:jsapi_ticket=tCG2vJ2Jqy8gmpnP4QvHazAtk0DiZEfjNqR034s7hJVPVyHkAnCEYsmUQH15vy3qPdkLzIvNyuhWC9rV4VNzqo&noncestr=YEnNLxOC&timestamp=1494516038&url=http://192.168.1.167:8007/
+2017/5/11 15:20:38: signature sha1:aed834039be0377d08316b822661a46fba5e9674
