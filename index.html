@@ -4,8 +4,39 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 	<meta charset="utf-8" />
+    <script src="https://g.alicdn.com/dingding/dingtalk-pc-api/2.7.0/index.js"></script>
+
+    <script>
+        DingTalkPC.config({
+            agentId: '94519023', // 必填，微应用ID
+            corpId: 'ding6b3d79b9451858fd35c2f4657eb6378f',//必填，企业ID
+            timeStamp: '@(timeStamp)', // 必填，生成签名的时间戳
+            nonceStr: '@(nonceStr)', // 必填，生成签名的随机串
+            signature: '@(signature)', // 必填，签名
+            jsApiList: ['device.notification.alert', 'device.notification.confirm'] // 必填，需要使用的jsapi列表
+        });
+
+        DingTalkPC.ready({
+            function(res) {
+                logger.i('ready');
+                DingTalkPC.device.notification.alert({
+                    title: "提示",
+                    message: "有没有收到我的信息？",
+                    buttonName: "收到"
+                })
+            }
+        })
+
+        DingTalkPC.error({
+            function(error) {
+                alert(error.errorCode);
+                alert(error.errorMessage);
+                logger.i('ready');
+            }
+        })
+    </script>
 </head>
 <body>
-    <a href="/Home/Index">index</a>
+    <a href=>index</a>
 </body>
 </html>
